@@ -8,6 +8,7 @@
 ARG SaM_VERSION="dev"
 ARG GUACAMOLE_VERSION="1.0.0"
 ARG IMAGETYPE="content"
+ARG ADDREPOS="http://dl-cdn.alpinelinux.org/alpine/edge/testing"
 ARG DOWNLOADS="http://apache.org/dyn/closer.cgi?action=download&filename=guacamole/$GUACAMOLE_VERSION/source/guacamole-server-$GUACAMOLE_VERSION.tar.gz"
 ARG BUILDDEPS="ossp-uuid-dev cairo-dev libjpeg-turbo-dev libpng-dev"
 ARG BUILDCMDS=\
